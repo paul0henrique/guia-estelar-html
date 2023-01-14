@@ -1,4 +1,6 @@
-console.log(document.getElementById('author'))
+const author = document.getElementById('author')
+
+author.textContent = "Paulo"
 
 console.log(document.getElementsByClassName('insta'))
 
