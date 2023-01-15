@@ -10,6 +10,9 @@ instaName.innerText = "paulo.code"
 
 console.log(document.getElementsByTagName('h2'))
 
-console.log(document.querySelector("h1"))
+const element = document.querySelector("h1")
+
+element.innerHTML = "Paulo <small> Code <small>"
+
 
 console.log(document.querySelectorAll("h1"))
