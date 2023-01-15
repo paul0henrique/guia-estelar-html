@@ -14,5 +14,9 @@ const element = document.querySelector("h1")
 
 element.innerHTML = "Paulo <small> Code <small>"
 
+const input = document.querySelector('input')
+
+input.value = "Digite uma entrada"
+
 
 console.log(document.querySelectorAll("h1"))
