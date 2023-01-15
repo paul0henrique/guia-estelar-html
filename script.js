@@ -24,4 +24,8 @@ const inputID = document.querySelector('#input')
 
 console.log('input', inputID)
 
+input.removeAttribute('id')
+
+console.log('input', inputID)
+
 console.log(document.querySelectorAll("h1"))
