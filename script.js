@@ -18,5 +18,10 @@ const input = document.querySelector('input')
 
 input.value = "Digite uma entrada"
 
+input.setAttribute('id', 'input')
+
+const inputID = document.querySelector('#input')
+
+console.log('input', inputID)
 
 console.log(document.querySelectorAll("h1"))
