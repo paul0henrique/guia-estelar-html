@@ -1,3 +1,5 @@
+// Testes relacionados à manipulação da DOM
+
 const author = document.getElementById('author')
 
 author.textContent = "Paulo"
