@@ -31,3 +31,9 @@ input.removeAttribute('id')
 console.log('input', inputID)
 
 console.log(document.querySelectorAll("h1"))
+
+const elemento = document.querySelector('body')
+
+elemento.style.backgroundColor = "orange"
+
+console.log(elemento.style.backgroundColor)
