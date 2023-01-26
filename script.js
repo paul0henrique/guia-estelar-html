@@ -37,3 +37,7 @@ const elemento = document.querySelector('body')
 elemento.style.backgroundColor = "orange"
 
 console.log(elemento.style.backgroundColor)
+
+elemento.classList.add('active', 'green')
+
+console.log(elemento.classList)
