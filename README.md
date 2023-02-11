@@ -1,3 +1,3 @@
 # guia-estelar-html
 
-HTML practices.
+HTML practices
